@@ -59,6 +59,16 @@ article {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 360px) {
 
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    Section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }
